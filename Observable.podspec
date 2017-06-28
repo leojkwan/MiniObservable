@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Observable"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A micro-framework for native key value observable types."
 
   # This description is used to generate tags and improve search results.
@@ -24,11 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "Simple Observable Object & KVO Replacement. Read my blog post for more details: http://leojkwan.com/2017/03/observables-and-dispose-bags"
 
-  s.homepage     = "http://EXAMPLE/Observable"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/leojkwan/Observable"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/Observable.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/leojkwan/Observable.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Observable", "Observable/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
