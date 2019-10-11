@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MiniObservable"
-  s.version      = "1.6.0"
+  s.version      = "1.6.1"
   s.summary      = "A micro-framework for native key value observable types."
   s.description  = "Simple Observable Object & KVO Replacement. Read my blog post for more details: http://leojkwan.com/2017/03/observables-and-dispose-bags"
   s.homepage     = "https://github.com/leojkwan/MiniObservable"
@@ -17,7 +17,5 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/leojkwan/MiniObservable.git", :tag => s.version.to_s }
   s.source_files  = "MiniObservable", "MiniObservable/**/*.{h,m,swift}"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
-  # s.dependency "JSONKit", "~> 1.4"
-
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 end
