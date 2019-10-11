@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Leo Kwan" => "leojkwan@gmail.com" }
   s.platform     = :ios, "8.0"
+  s.swift_version = "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
